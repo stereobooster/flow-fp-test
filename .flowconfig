@@ -3,8 +3,6 @@
 [include]
 
 [libs]
-node_modules/fp-ts/lib/*.flow
-node_modules/io-ts/lib/*.flow
 
 [lints]
 all=warn
