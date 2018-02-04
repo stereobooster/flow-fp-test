@@ -1,8 +1,23 @@
 # Flow and FP experiments
 
+Without ignore `.*/node_modules`
+
 ```
 yarn flow
-yarn run v1.3.2
+Error: index.js:5
+  5: const Person = t.interface({
+                      ^^^^^^^^^ property `interface`. Property not found in
+  5: const Person = t.interface({
+                    ^ module `io-ts`
+
+
+Found 1 error
+```
+
+With ignore `.*/node_modules`
+
+```
+yarn flow
 Error: index.js:3
   3: const t = require("io-ts");
                        ^^^^^^^ io-ts. Required module not found
