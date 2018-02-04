@@ -1,4 +1,6 @@
-# Flow and FP experiments
+# Flow and date-fns
+
+https://github.com/date-fns/date-fns/issues/244
 
 ```
 yarn flow
