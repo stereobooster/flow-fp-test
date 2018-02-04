@@ -3,7 +3,6 @@
 [include]
 
 [libs]
-node_modules/date-fns/*.flow
 
 [lints]
 all=warn
