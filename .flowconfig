@@ -4,8 +4,8 @@
 [include]
 
 [libs]
-node_modules/fp-ts/lib/*.flow
-node_modules/io-ts/lib/*.flow
+node_modules/date-fns/*.js
+node_modules/date-fns/*.flow
 
 [lints]
 all=warn

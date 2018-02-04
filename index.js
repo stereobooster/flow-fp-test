@@ -1,12 +1,5 @@
 // @flow
 
-const t = require("io-ts");
-
-const Person = t.interface({
-  name: t.string,
-  age: t.number
-});
-
-t
-  .validate(JSON.parse('{"name":"Giulio","age":43}'), Person)
-  .map(x => console.log(x)); // => Right({name: "Giulio", age: 43})
+const format = require("date-fns/format");
+// const format = require("date-fns/format/index");
+// const { format } = require("date-fns");
