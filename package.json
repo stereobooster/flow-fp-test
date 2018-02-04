@@ -11,7 +11,7 @@
     "ramda": "^0.25.0"
   },
   "scripts": {
-    "build": "yarn flow-remove-types index.js > build/index.js",
+    "build": "node node_modules/.bin/flow-remove-types index.js > build/index.js",
     "test": "node build/index.js"
   }
 }
