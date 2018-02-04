@@ -5,8 +5,13 @@
   "license": "MIT",
   "dependencies": {
     "flow-bin": "^0.64.0",
+    "flow-remove-types": "^1.2.3",
     "flow-typed": "^2.3.0",
     "io-ts": "^0.9.7",
     "ramda": "^0.25.0"
+  },
+  "scripts": {
+    "build": "yarn flow-remove-types index.js > build/index.js",
+    "test": "node build/index.js"
   }
 }

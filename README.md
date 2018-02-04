@@ -1,5 +1,9 @@
 # Flow and FP experiments
 
+Now it works
+
+### Errors before
+
 Without ignore `.*/node_modules`
 
 ```
